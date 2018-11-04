@@ -1,0 +1,26 @@
+.scrollable {
+    height:auto;
+    overflow-y: scroll;
+}
+
+.card
+{
+    border: none;
+
+}
+
+.row
+{
+    padding-bottom: 1rem;
+}
+
+.advertise
+{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+.news-card
+{
+    width: 100% ;
+}
