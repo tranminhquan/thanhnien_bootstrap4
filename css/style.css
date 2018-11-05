@@ -14,13 +14,12 @@
     padding-bottom: 1rem;
 }
 
-.advertise
-{
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
-}
-.news-card
+.full-card
 {
     width: 100% ;
+}
+
+li.list-group-item.no-bg
+{
+    background-color: transparent;
 }
