@@ -9,11 +9,6 @@
 
 }
 
-.row
-{
-    padding-bottom: 1rem;
-}
-
 .full-card
 {
     width: 100% ;
@@ -23,3 +18,19 @@ li.list-group-item.no-bg
 {
     background-color: transparent;
 }
+
+.btn-share
+{
+    width: 6rem;
+}
+
+h6
+{
+    font-size: 14px;
+}
+
+p
+{
+    font-size: 12px;
+}
+
