@@ -34,3 +34,14 @@ p
     font-size: 12px;
 }
 
+.logo-index {
+    text-indent: -999em;
+    background: url(../img/TNO_wlogo.svg) no-repeat;
+    width: 180px;
+    height: 52px;
+    transition: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
