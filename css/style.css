@@ -26,14 +26,27 @@ li.list-group-item.no-bg
     width: 6rem;
 }
 
+.img-cropped
+{
+    object-fit: none;
+    object-position: center;
+    width: 100%;
+    max-height: 100px;
+}
+
 h6
 {
-    font-size: 14px;
+    /*font-size: 14px;*/
 }
 
 p
 {
     font-size: 12px;
+}
+
+footer
+{
+    background-color: white;
 }
 
 .logo-index {
