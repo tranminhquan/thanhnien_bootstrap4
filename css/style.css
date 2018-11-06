@@ -52,3 +52,8 @@ p
     border-right: 1px solid #ccc;
     text-align: left;
 }
+
+.col-lg-4 i {
+    display: block;
+    text-align: center
+}
