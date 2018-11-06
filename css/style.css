@@ -48,7 +48,7 @@ p
     transform: translate(-50%, -50%);
 }
 
-.col-sm-2:not(:last-child) {
+.vdivider:not(:last-child) {
     border-right: 1px solid #ccc;
     text-align: left;
 }
