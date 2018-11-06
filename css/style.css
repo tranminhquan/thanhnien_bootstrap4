@@ -3,6 +3,16 @@
     overflow-y: scroll;
 }
 
+.text-nav-item
+{
+    font-size: 12px;
+}
+
+.p-sub
+{
+    font-size: 14px;
+}
+
 .card
 {
     border: none;
@@ -41,7 +51,7 @@ h6
 
 p
 {
-    font-size: 12px;
+    /*font-size: 12px;*/
 }
 
 footer
@@ -61,8 +71,15 @@ footer
     transform: translate(-50%, -50%);
 }
 
-.vdivider:not(:last-child) {
+.vdivider-med:not(:last-child) {
     border-right: 1px solid #ccc;
+    height: 180px;
+    text-align: left;
+}
+
+.vdivider-long:not(:last-child) {
+    border-right: 1px solid #ccc;
+    height: 350px;
     text-align: left;
 }
 
