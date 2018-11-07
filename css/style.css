@@ -3,10 +3,22 @@
     overflow-y: scroll;
 }
 
+.text-nav-item
+{
+    font-size: 12px;
+}
+
+.p-sub
+{
+    font-size: 14px;
+}
+
 .card
 {
     border: none;
-
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
 }
 
 .full-card
@@ -24,14 +36,27 @@ li.list-group-item.no-bg
     width: 6rem;
 }
 
+.img-cropped
+{
+    object-fit: none;
+    object-position: center;
+    width: 100%;
+    max-height: 100px;
+}
+
 h6
 {
-    font-size: 14px;
+    /*font-size: 14px;*/
 }
 
 p
 {
-    font-size: 12px;
+    /*font-size: 12px;*/
+}
+
+footer
+{
+    background-color: white;
 }
 
 .logo-index {
@@ -44,6 +69,18 @@ p
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.vdivider-med:not(:last-child) {
+    border-right: 1px solid #ccc;
+    height: 180px;
+    text-align: left;
+}
+
+.vdivider-long:not(:last-child) {
+    border-right: 1px solid #ccc;
+    height: 350px;
+    text-align: left;
 }
 
 .col-lg-4 i {
