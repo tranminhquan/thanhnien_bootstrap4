@@ -50,3 +50,62 @@ p
     display: block;
     text-align: center
 }
+
+.btn-group {
+    float: left;
+    width: 33.33%;
+}
+
+.btn-group a {
+    color: #fff;
+    text-align: center;
+    height: 32px;
+    padding: 8px;
+}
+
+.btn-group i {
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+
+.btn-group .fa-youtube-play {
+    font-size: 18px;
+    font-size: 1.8rem;
+}
+
+.btn-group .fa-zalo {
+    width: 15px;
+    height: 17px;
+}
+
+.social__fb {
+    background: #3b5998;
+}
+
+.social__fb:hover {
+    background: #234183;
+}
+
+.social__yt {
+    background: #e52c27;
+}
+
+.social__yt:hover {
+    background: #d11d18;
+}
+
+.social__zl {
+    background: #018fe5;
+}
+
+.social__zl:hover {
+    background: #027ec9;
+}
+
+.fa-zalo {
+    width: 16px;
+    height: 18px;
+    display: block;
+    background: url(../img/zalo_sicon.svg) no-repeat;
+    margin: auto;
+}
