@@ -6,11 +6,12 @@
 .text-nav-item
 {
     font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .p-sub
 {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .card
