@@ -72,6 +72,17 @@ footer
     transform: translate(-50%, -50%);
 }
 
+.home {
+    text-indent: -999em;
+    background: url(../img/TNO_homeic.svg) no-repeat;
+    width: 16px;
+    height: 14px;
+    vertical-align: middle;
+    position: absolute;
+    top: 25%;
+    left: 4%;
+}
+
 .vdivider-med:not(:last-child) {
     border-right: 1px solid #ccc;
     height: 180px;
@@ -84,8 +95,8 @@ footer
     text-align: left;
 }
 
-.col-lg-4 i {
-    display: block;
+.nav-item-center {
+    color: white;
     text-align: center
 }
 
@@ -164,17 +175,12 @@ footer
     color: #fff;
     text-align: center;
     height: 32px;
-    padding: 8px;
+    padding: 4px;
 }
 
 .btn-group i {
     font-size: 16px;
     font-size: 1.6rem;
-}
-
-.btn-group .fa-youtube-play {
-    font-size: 18px;
-    font-size: 1.8rem;
 }
 
 .btn-group .fa-zalo {
